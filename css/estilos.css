@@ -103,6 +103,7 @@ body {
 
 .principal {
     padding: 24px 16px;
+    display: grid;
 }
 
 .titulo-pagina {
@@ -116,6 +117,11 @@ body {
     overflow: hidden;
     background-color: #2c343a;
 }
+
+.cartao__destaque {
+    margin-bottom: 16px;
+}
+
 
 .cartao__conteudo {
     padding: 16px;
@@ -180,4 +186,9 @@ body {
 
 .cartao__botao--destaque::before {
     margin-right: 8px;
+}
+
+.secao {
+    display: grid;
+    gap: 16px;  
 }
